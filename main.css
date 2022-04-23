@@ -52,4 +52,6 @@ body {
   display: block;
   width: 100%;
   display: flex;
+  text-decoration: none;
+  color: white;
 }
