@@ -46,3 +46,10 @@ body {
 .navigation ul li:nth-child(1ƒ):hover {
   background: transparent;
 }
+
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+}
