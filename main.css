@@ -55,3 +55,8 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+}
