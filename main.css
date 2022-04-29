@@ -73,4 +73,5 @@ body {
 .navigation ul li a .title {
   position: relative;
   display: block;
+  padding: 0 10px;
 }
