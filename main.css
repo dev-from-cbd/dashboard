@@ -76,4 +76,5 @@ body {
   padding: 0 10px;
   height: 60px;
   line-height: 60px;
+  white-space: nowrap;
 }
