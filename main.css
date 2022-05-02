@@ -43,7 +43,11 @@ body {
   background: green;
 }
 
-.navigation ul li:nth-child(1ƒ):hover {
+.navigation ul li:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.navigation ul li:nth-child(1):hover {
   background: transparent;
 }
 
@@ -77,4 +81,16 @@ body {
   height: 60px;
   line-height: 60px;
   white-space: nowrap;
+}
+
+.main {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  min-height: 100vh;
+}
+
+.userpic {
+  width: 2rem;
+  height: 2rem;
 }
