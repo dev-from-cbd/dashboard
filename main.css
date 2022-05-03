@@ -88,9 +88,15 @@ body {
   width: calc(100% - 300px);
   left: 300px;
   min-height: 100vh;
+  background: lightgray;
+  transition: 0.5s;
 }
 
 .userpic {
   width: 2rem;
   height: 2rem;
+}
+
+.main .topbar {
+  width: 100%;
 }
