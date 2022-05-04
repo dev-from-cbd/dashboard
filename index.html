@@ -134,14 +134,29 @@
           <div class="toggle"></div>
           <div class="search">
             <label>
-              <input type="text" placeholder="search here" />
+              <input
+                type="text"
+                placeholder="search here"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='enter your text'"
+              />
             </label>
-            <div class="user">
-              <img src="user.png" alt="Userpic" class="userpic" />
-            </div>
+          </div>
+
+          <div class="user">
+            <img src="user.png" alt="Userpic" class="userpic" />
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      function toggleMenu() {
+        let toggle = document.querySelector(".toggle");
+        let navigation = document.querySelector(".navigation");
+        toggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
