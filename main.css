@@ -101,6 +101,11 @@ body {
   height: 2rem;
 }
 
+.main.active {
+  width: calc(100% - 60px);
+  left: 60px;
+}
+
 .main .topbar {
   width: 100%;
   background: gray;
@@ -127,4 +132,13 @@ body {
   font-size: 24px;
   text-align: center;
   color: #111;
+}
+
+.search {
+  position: relative;
+  width: 400px;
+  margin: 0 10px;
+}
+
+.search {
 }
