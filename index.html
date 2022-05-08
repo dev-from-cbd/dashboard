@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Admin Dashboard using HTML, CSS & Javascript</title>
+    <title>NDIS Plan Management | NDIS Plan Manager | We Care</title>
+    <!-- 
+    <title>Responsive Admin Dashboard using HTML, CSS & Javascript</title>-->
 
     <link rel="icon" type="image/png" href="favicon.jpeg" />
 
@@ -34,19 +36,29 @@
             <a href="#">
               <!-- Logo -->
               <span class="icon">
-                <i class="fa-solid fa-table-cells"></i>
+                <i
+                  class="fa-solid fa-heart-pulse bold"
+                  title="Logo of NDIS Plan Management"
+                ></i>
+                <!-- 
+                <i class="fa-solid fa-table-cells"></i>-->
               </span>
 
               <span class="title">
-                <span>Brand Name</span>
+                <span class="bold" title="Logo of NDIS Plan Management"
+                  >NDIS Plan Management</span
+                >
               </span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Dashboard">
               <!-- Home -->
               <span class="icon">
-                <i class="fa-solid fa-house-chimney-window"></i>
+                <i
+                  class="fa-solid fa-house-chimney-window"
+                  title="Dashboard"
+                ></i>
               </span>
 
               <span class="title">
@@ -55,10 +67,10 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Customers">
               <!-- User -->
               <span class="icon">
-                <i class="fa-solid fa-user-group"></i>
+                <i class="fa-solid fa-user-group" title="Customers"></i>
               </span>
 
               <span class="title">
@@ -67,10 +79,10 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Message">
               <!-- Messages -->
               <span class="icon">
-                <i class="fa-regular fa-comments"></i>
+                <i class="fa-regular fa-comments" title="Message"></i>
               </span>
 
               <span class="title">
@@ -79,10 +91,10 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Help">
               <!-- Help -->
               <span class="icon">
-                <i class="fa-regular fa-circle-question"></i>
+                <i class="fa-regular fa-circle-question" title="Help"></i>
               </span>
 
               <span class="title">
@@ -91,10 +103,10 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Settings">
               <!-- Settings -->
               <span class="icon">
-                <i class="fa-solid fa-gears"></i>
+                <i class="fa-solid fa-gears" title="Settings"></i>
               </span>
 
               <span class="title">
@@ -103,10 +115,10 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Password">
               <!-- Password -->
               <span class="icon">
-                <i class="fa-solid fa-key"></i>
+                <i class="fa-solid fa-key" title="Password"></i>
               </span>
 
               <span class="title">
@@ -115,10 +127,13 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#Sign-Out">
               <!-- Sign Out -->
               <span class="icon">
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <i
+                  class="fa-solid fa-arrow-right-from-bracket"
+                  title="Sign Out"
+                ></i>
               </span>
 
               <span class="title">
@@ -131,20 +146,27 @@
 
       <div class="main">
         <div class="topbar">
-          <div class="toggle" onclick="toggleMenu();"></div>
+          <div class="toggle" onclick="toggleMenu();" title="Menu"></div>
           <div class="search">
             <label>
               <input
                 type="text"
-                placeholder="search here"
+                placeholder="Search here"
                 onfocus="this.placeholder=''"
-                onblur="this.placeholder='enter your text'"
+                onblur="this.placeholder='Enter your text'"
               />
+              <i class="fa-solid fa-magnifying-glass"></i>
             </label>
           </div>
 
           <div class="user">
-            <img src="user.png" alt="Userpic" class="userpic" />
+            <a href="#account">
+              <img
+                src="user.png"
+                alt="Your account"
+                class="userpic"
+                title="Your account"
+            /></a>
           </div>
         </div>
       </div>
