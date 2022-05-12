@@ -74,7 +74,7 @@ body {
 }
 
 .navigation ul li a .icon .fa {
-  color: #fff;
+  color: white;
   font-size: 24px;
 }
 
@@ -136,7 +136,7 @@ body {
   line-height: 60px;
   font-size: 24px;
   text-align: center;
-  color: #111;
+  color: blaсk;
 }
 
 .search {
@@ -216,8 +216,25 @@ body {
   text-decoration: none;
 }
 
+.cardName .a__none {
+  color: gray;
+}
+
 .cardBox .card .numbers {
   position: relative;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 500;
+}
+
+.cardBox .card .cardName {
+  color: gray;
+}
+
+.font-size__2rem {
+  font-size: 1.2rem;
+}
+
+.cardBox .card .iconBox {
+  font-size: 1.2rem;
+  color: blue;
 }
