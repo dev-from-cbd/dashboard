@@ -78,6 +78,10 @@ body {
   font-size: 24px;
 }
 
+h1 {
+  font-size: 1.1rem;
+}
+
 .navigation ul li a .title {
   position: relative;
   display: block;
@@ -136,7 +140,7 @@ body {
   line-height: 60px;
   font-size: 24px;
   text-align: center;
-  color: blaсk;
+  color: black;
 }
 
 .search {
@@ -237,4 +241,20 @@ body {
 .cardBox .card .iconBox {
   font-size: 1.2rem;
   color: blue;
+}
+
+.details {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.details .recentOrders {
+  position: relative;
+  display: grid;
+  min-height: 530px;
+  background: white;
+  padding: 20px;
 }
