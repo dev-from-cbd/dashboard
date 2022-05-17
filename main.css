@@ -359,8 +359,14 @@ h1 {
 .details .recentCustomers {
   position: relative;
   display: grid;
+  min-height: 530px;
   background: white;
   padding: 20px;
 
   /* margin-left: 1rem; */
+}
+
+.img {
+  width: 10rem;
+  height: 10rem;
 }
