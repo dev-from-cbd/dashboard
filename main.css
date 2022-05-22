@@ -404,13 +404,6 @@ h1 {
   line-height: 1.2rem;
 }
 
-/*
-.img {
-  width: 10rem;
-  height: 10rem;
-}
-*/
-
 @media (max-width: 992px) {
   .navigation {
     left: -300px;
@@ -466,6 +459,25 @@ h1 {
   }
 
   .navigation.active {
+    width: 100%;
+    left: 0;
+  }
 
+  .toggle.active {
+    position: fixed;
+    z-index: 10000;
+    right: 0;
+    left: initial;
+  }
+
+  .toggle.active::before {
+    color: white;
+    background: darkgreen;
+  }
+
+  .main,
+  .main.active {
+    width: 100%;
+    left: 0;
   }
 }
